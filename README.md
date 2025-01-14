@@ -21,10 +21,10 @@
     key weather details such as temperature, humidity, and wind speed.
 
 **Steps Involved**:
-    1. Setting Up the Project:
+    **1. Setting Up the Project**:
       -> We used IntelliJ IDEA to create a Java project.
       -> Maven was chosen as the build automation tool to manage dependencies, such as Gson for JSON parsing.
-    2. Changes in pom.xml:
+    **2. Changes in pom.xml**:
       -> In order to use Gson for JSON parsing, we modified the pom.xml file to include the necessary Maven dependency for Gson.
       -> The Gson library is used to parse the JSON data returned by the OpenWeather API, making it easy to extract relevant weather
          information such as temperature, humidity, and wind speed.
@@ -36,7 +36,7 @@
                 <version>2.8.8</version>
             </dependency>
           </dependencies>
-    3. OpenWeather API Setup:
+    **3. OpenWeather API Setup**:
         -> OpenWeather API is a public service that provides weather data in JSON format for cities around the world.
         -> We used the OpenWeather API to fetch real-time weather data. The API requires an API key for authentication. 
            The key used in this example is:
@@ -44,7 +44,7 @@
         -> We built the API URL to fetch weather data for a specific city:
                        https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_KEY}
            The {city_name} is a dynamic parameter, and {API_KEY} is your authentication key.
-     4. Code Walkthrough:
+     **4. Code Walkthrough**:
         -> URL Construction: The URL for the API request is dynamically built by accepting user input for the city name.
         -> Making the HTTP GET Request: We use Java’s HttpURLConnection to send an HTTP GET request to the OpenWeather API.
            The connection is set up with the necessary headers to accept JSON responses.
@@ -54,12 +54,12 @@
            to extract the specific data fields, such as the city name, temperature, humidity, and wind speed.
         -> Displaying the Data: The relevant data (city name, temperature, humidity, wind speed) is extracted
            and displayed in a structured format.
-      5. Features Added:
+     **5. Features Added**:
         -> Dynamic City Input: The user is prompted to enter the city name, which is used to query the OpenWeather API.
         -> Input Validation: The application checks if the city name is empty before making the API request, ensuring that valid data is provided.
         -> Handling Different HTTP Response Codes: The program handles various HTTP status codes, including success (HTTP_OK) and failure (HTTP_NOT_FOUND).
         -> Modular Display Method: A separate method (displayWeatherData) was created to organize the code and handle the display of weather data in a structured format.
-      6. Handling Errors:
+      **6. Handling Errors**:
         -> The program handles any potential exceptions (e.g., network issues, invalid city name) by catching them and printing an error message.
         
 **How the Components Are Connected**:
