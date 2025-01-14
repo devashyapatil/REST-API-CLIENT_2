@@ -82,6 +82,12 @@
 
 # OUTPUT OF THE TASK: 
 
+**OUTPUT 1**:
+![Screenshot 2025-01-14 215954](https://github.com/user-attachments/assets/008bef9a-4c2b-4f93-9780-b9b62480280c)
+
+**OUTPUT 2**:
+![Screenshot 2025-01-14 215936](https://github.com/user-attachments/assets/e9a9296b-51ee-4a6e-bcbf-a22c3c779eea)
+
 
 
 
