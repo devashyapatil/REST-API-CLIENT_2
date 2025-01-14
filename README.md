@@ -76,8 +76,8 @@
              5. JSON Parsing: The response is parsed using the Gson library to extract the relevant data.
              6. Displaying Data: The extracted weather data (temperature, humidity, wind speed) is displayed to the user in a readable format.
         
-        This Java application demonstrates how to make HTTP requests to a public API, handle the response, parse JSON data, and display 
-        it in a structured format. The program is flexible and can easily be extended to support additional weather data fields or other APIs in the future.
+This Java application demonstrates how to make HTTP requests to a public API, handle the response, parse JSON data, and display 
+it in a structured format. The program is flexible and can easily be extended to support additional weather data fields or other APIs in the future.
 
 
 # OUTPUT OF THE TASK: 
