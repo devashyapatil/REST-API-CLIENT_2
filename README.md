@@ -1,16 +1,4 @@
-# REST-API-CLIENT_2
-
-**COMPANY**: CODETECH IT SOLUTIONS
-
-**NAME**: Devashya Tulsidas Patil
-
-**INTERN ID**: CT08JFE
-
-**DOMAIN**: JAVA PROGRAMMING
-
-**BATCH DURATIONN**: January 5th, 2025 to February 5th, 2025
-
-**MENTOR NAME**: Neela Santhosh Kumar
+# REST-API-CLIENT
 
 # DESCRIPTION: 
 
